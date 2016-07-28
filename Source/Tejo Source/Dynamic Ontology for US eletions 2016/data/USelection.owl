@@ -1,0 +1,2344 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.kdm.com/OWL/USelections"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.kdm.com/OWL/USelections">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#CandidateElection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Election"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectoralCollegeMembers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PresidentElection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#College"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#july"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HilaryClinton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#all"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#presidency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hillary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#new"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#limit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#win"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#will"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DemocratCandidates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alphabetical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#johnson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#exploratory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#several"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Commission"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#major"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#national"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#various"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Federal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#November"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#formally"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#currently"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BernieSanders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RepublicanCandidates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VicePresidentElection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#poll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#senator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#incumbent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#july"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#presidency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#they"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FEC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hillary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#new"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#access"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electoral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#States"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Election"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#follow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#johnson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#out"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#elect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#state"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amendment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alphabetically"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tuesday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#active"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#uncommitted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#occur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#june"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#more"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#organize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#presidential"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cruz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Constitution"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#candidacy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#have"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#candidate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#presumptive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#respectively"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#purpose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#remainder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#popular"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#libertarian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#voter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obtain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCandidates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kasich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#than"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#on"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#presidential"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#or"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#governor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#win"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#individual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#preference"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#and"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#from"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#candidate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#defeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nominee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#major"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#presumptive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#national"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#various"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#file"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#who"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#order"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#no"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libertarian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#most"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#senator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#obtain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#currently"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kasich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#associate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#announce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#poll"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#governor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mexico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Democratic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#delegate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#option"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#determine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#republican"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#defeat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#serve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#establish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nominee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caucus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#donald"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#president"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#with"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prescribe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Candidates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prevent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#john"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#second"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#third"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#to"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#respective"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#th"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#include"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#one"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#receive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cruz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#republican"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DonaldTrump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#so"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Biden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#through"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#President"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#constitutionally"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#provide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#donald"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#party"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#be"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#primary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#john"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClintonBernie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#as"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ballot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#green"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#if"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#term"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#access"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#far"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#election"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#party"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#surname"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#businessman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#independent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#select"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hillary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#june"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#this"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#campaign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ballot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mexico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#green"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#feature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#list"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#election"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#elector"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#for"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#take"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#twenty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#businessman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quadrennial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#independent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sanders"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BernieSanders"/>
+        <Class IRI="#DemocratCandidates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidateElection"/>
+        <Class IRI="#Election"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Candidates"/>
+        <Class IRI="#PresidentElection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DemocratCandidates"/>
+        <Class IRI="#CandidateElection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DonaldTrump"/>
+        <Class IRI="#RepublicanCandidates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electors"/>
+        <Class IRI="#PresidentElection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HilaryClinton"/>
+        <Class IRI="#DemocratCandidates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PresidentElection"/>
+        <Class IRI="#Election"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RepublicanCandidates"/>
+        <Class IRI="#CandidateElection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VicePresidentElection"/>
+        <Class IRI="#Election"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#CandidateElection"/>
+        <Class IRI="#PresidentElection"/>
+        <Class IRI="#VicePresidentElection"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Barack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Biden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#ClintonBernie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#College"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#Commission"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Constitution"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#Democratic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Democratic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#Election"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Electoral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#FEC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#Federal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#Hillary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Joe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#November"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Obama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Obama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#Party"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Party"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#President"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#President"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#President"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#President"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#S"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#Sanders"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#States"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#States"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#States"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#States"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#The"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Tuesday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#United"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#United"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#United"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#United"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Vice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#Vice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#access"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#active"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#all"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#alphabetical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#alphabetically"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#amendment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#announce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#article"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#associate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#ballot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#ballot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#ballot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#businessman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#by"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#by"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#campaign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#candidacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#candidate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#candidate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#candidate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#candidate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#candidate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#candidate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#candidate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#cast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#caucus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#constitutionally"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#contain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#contest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#cruz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#currently"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#defeat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#delegate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#determine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#donald"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#elect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#elect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#election"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#election"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#election"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#election"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#election"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#election"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#election"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#elector"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#establish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#exploratory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#far"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#feature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#file"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#follow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#follow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#formally"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#gary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#governor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#governor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#governor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#green"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#hillary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#if"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#include"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#incumbent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#independent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#individual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#jill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#john"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#johnson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#july"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#june"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#kasich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#libertarian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#limit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#list"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#list"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#major"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#mexico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#more"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#most"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#national"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#nominee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#nominee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#nominee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#obtain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#occur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#option"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#organize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#out"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#party"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#party"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#party"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#place"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#poll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#popular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#popular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#popular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#preference"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#preference"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#prescribe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#presidency"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#president"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#president"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#president"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#presidential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#presidential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#presidential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#presidential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#presidential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#presidential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#presidential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#presidential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#presumptive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#presumptive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#presumptive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#prevent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#primary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#primary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#primary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#primary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#provide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#purpose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#quadrennial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#reality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#receive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#receive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#receive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#remainder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#republican"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#republican"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#respective"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#respectively"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#second"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#section"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#select"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#senator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#senator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#senator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#serve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#several"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#so"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#state"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#stein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#surname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#take"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#term"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#term"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#term"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#th"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#th"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#th"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#th"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#th"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#than"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#they"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#they"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#they"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#they"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#third"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#this"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#this"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#through"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#turn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#twenty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#uncommitted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#uncommitted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#various"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#vice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#vote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#vote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#vote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#vote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#vote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#vote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#voter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#voter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#who"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#will"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#will"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#will"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PresidentElection"/>
+        <NamedIndividual IRI="#will"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#win"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#win"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateElection"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectProperty IRI="#hasCandidates"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#ElectoralCollegeMembers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCandidates"/>
+        <Class IRI="#DemocratCandidates"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#access"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#ballot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#ballot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#businessman"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#candidate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#candidate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#candidate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#contest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#cruz"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#currently"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#defeat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#donald"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#election"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#election"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#election"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#gary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#governor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#governor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#governor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#green"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#hillary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#independent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#jill"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#john"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#johnson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#july"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#june"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#kasich"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#libertarian"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#major"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#mexico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#national"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#new"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#new"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#new"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#nominee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#nominee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#nominee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#obtain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#party"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#party"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#party"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#poll"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#presidency"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#presidential"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#presidential"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#presidential"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#presumptive"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#presumptive"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#presumptive"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#reality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#republican"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#republican"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#senator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#senator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#senator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#stein"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#various"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#win"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#ElectoralCollegeMembers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCandidates"/>
+        <Class IRI="#DemocratCandidates"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.0.2.20160507-1747) https://github.com/owlcs/owlapi/ -->
+
+
