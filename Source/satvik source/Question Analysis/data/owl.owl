@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.kdm.com/OWL/pizza"
+     xml:base="https://www.kdm.com/OWL/pizza"
+     xmlns:pizza="https://www.kdm.com/OWL/pizza#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://www.kdm.com/OWL/pizza"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#isPresident -->
+
+    <owl:ObjectProperty rdf:about="https://www.kdm.com/OWL/pizza#isPresident">
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/pizza#Leaders"/>
+        <rdfs:range rdf:resource="https://www.kdm.com/OWL/pizza#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#hasTimeDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.kdm.com/OWL/pizza#hasTimeDate">
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/pizza#brand"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#hasVarieties -->
+
+    <owl:DatatypeProperty rdf:about="https://www.kdm.com/OWL/pizza#hasVarieties">
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/pizza#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#isLocated -->
+
+    <owl:DatatypeProperty rdf:about="https://www.kdm.com/OWL/pizza#isLocated">
+        <rdfs:domain rdf:resource="https://www.kdm.com/OWL/pizza#brand"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#Country -->
+
+    <owl:Class rdf:about="https://www.kdm.com/OWL/pizza#Country"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#Leaders -->
+
+    <owl:Class rdf:about="https://www.kdm.com/OWL/pizza#Leaders"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#Person -->
+
+    <owl:Class rdf:about="https://www.kdm.com/OWL/pizza#Person"/>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#brand -->
+
+    <owl:Class rdf:about="https://www.kdm.com/OWL/pizza#brand"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#Chipotle_Fest -->
+
+    <owl:NamedIndividual rdf:about="https://www.kdm.com/OWL/pizza#Chipotle_Fest">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/pizza#brand"/>
+        <pizza:hasTimeDate>8 am - 12 pm</pizza:hasTimeDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#India -->
+
+    <owl:NamedIndividual rdf:about="https://www.kdm.com/OWL/pizza#India">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/pizza#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#McDonalds -->
+
+    <owl:NamedIndividual rdf:about="https://www.kdm.com/OWL/pizza#McDonalds">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/pizza#brand"/>
+        <pizza:isLocated>Kansas City</pizza:isLocated>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#Obama -->
+
+    <owl:NamedIndividual rdf:about="https://www.kdm.com/OWL/pizza#Obama">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/pizza#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#President -->
+
+    <owl:NamedIndividual rdf:about="https://www.kdm.com/OWL/pizza#President">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/pizza#Leaders"/>
+        <pizza:isPresident rdf:resource="https://www.kdm.com/OWL/pizza#Obama"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#UK -->
+
+    <owl:NamedIndividual rdf:about="https://www.kdm.com/OWL/pizza#UK">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/pizza#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.kdm.com/OWL/pizza#USA -->
+
+    <owl:NamedIndividual rdf:about="https://www.kdm.com/OWL/pizza#USA">
+        <rdf:type rdf:resource="https://www.kdm.com/OWL/pizza#Country"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
